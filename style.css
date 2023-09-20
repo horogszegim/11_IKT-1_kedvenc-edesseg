@@ -1,0 +1,98 @@
+body {
+    background-image: url(./src/churros-background.jpg);
+    background-size: cover;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-shadow: 0 0 2px #fff;
+}
+
+
+
+h1 {
+    font-size: 50px;
+}
+
+
+
+.bgNavbar {
+    background-color: #252525;
+    box-shadow: 0 0 20px #000;
+    border-bottom: 3px solid #fff;
+}
+
+.bgFooter {
+    background-color: #252525;
+    box-shadow: 0 0 20px #000;
+    border-top: 3px solid #fff;
+}
+
+.fixedFooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.txtSmall {
+    font-size: 14px;
+}
+
+
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bebebe;
+    text-decoration: none;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    background: #8a8a8a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #bdbdbd;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
+
+
+
+.pageLoad {
+	animation: transitionIn 1.3s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-15deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
