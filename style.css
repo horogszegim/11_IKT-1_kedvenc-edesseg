@@ -4,7 +4,7 @@ body {
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
-    text-shadow: 0 0 2px #fff;
+    text-shadow: 0 0 3px #fff;
 }
 
 h1 {
@@ -85,7 +85,8 @@ a:visited {
 }
 
 a:hover {
-    color: #bebebe !important;
+    color: #c5c5c5 !important;
+    text-shadow: 0 0 6px #c5c5c5 !important;
     text-decoration: none;
 }
 
