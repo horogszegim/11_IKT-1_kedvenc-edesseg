@@ -3,12 +3,18 @@ body {
     background-size: cover;
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     text-shadow: 0 0 3px #fff;
 }
 
 h1 {
     font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 35px;
+    font-style: italic;    
 }
 
 img {
@@ -21,7 +27,34 @@ p {
     text-align: justify;
 }
 
+ul {
+    margin-bottom: 3vh;
+    direction: rtl;
+}
 
+ul li p {
+    text-align: right;
+    direction: ltr;
+    unicode-bidi: embed;
+}
+
+ol {
+    margin-bottom: 3vh;
+    direction: ltr;
+    text-align: left;
+}
+
+ol li {
+    padding-block: 1vw;
+}
+
+.h2padding {
+    padding-right: 1vw;
+}
+
+.textToRight {
+    text-align: right;
+}
 
 .navbar a {
     font-size: 25px;
