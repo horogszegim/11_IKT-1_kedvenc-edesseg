@@ -29,13 +29,6 @@ p {
 
 ul {
     margin-bottom: 3vh;
-    direction: rtl;
-}
-
-ul li p {
-    text-align: right;
-    direction: ltr;
-    unicode-bidi: embed;
 }
 
 ol {
@@ -50,10 +43,6 @@ ol li {
 
 .h2padding {
     padding-right: 1vw;
-}
-
-.textToRight {
-    text-align: right;
 }
 
 .navbar a {
